@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_noti"
+            android:icon="@mipmap/ic_notifications_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/nav_logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy"
+                android:icon="@android:drawable/ic_lock_idle_lock"/>
+        </menu>
+    </item>
+
+</menu>

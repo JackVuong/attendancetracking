@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.plpnghi.attendancetrackingapplication.Event"
+    android:background="#80d7ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tên Sự Kiện"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Địa Điểm"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/txtEventName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEventName"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:cursorVisible="true"
+        android:layout_alignRight="@+id/txtPlace"
+        android:layout_alignEnd="@+id/txtPlace" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPlace"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:cursorVisible="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/circle"
+        android:drawableTop="@android:drawable/ic_menu_camera"
+        android:paddingTop="20dp"
+        android:text="Bắt Đầu"
+        android:id="@+id/btnOK"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+</RelativeLayout>

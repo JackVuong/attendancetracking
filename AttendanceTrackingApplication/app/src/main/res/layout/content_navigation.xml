@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="170dp">
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_menu_camera"
+            android:paddingTop="20dp"
+            android:text="Điểm danh lớp học"
+            android:id="@+id/btnClass"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_menu_myplaces"
+            android:paddingTop="20dp"
+            android:text="Điểm danh sự kiện"
+            android:id="@+id/btnEvent"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle"
+            android:drawableTop="@android:drawable/ic_popup_sync"
+            android:paddingTop="20dp"
+            android:text="Đồng bộ dữ liệu"
+            android:id="@+id/btnDongBo"
+            android:textColor="#fff" />
+    </LinearLayout>
+</LinearLayout>
